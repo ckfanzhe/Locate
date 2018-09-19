@@ -1,0 +1,90 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'D:\rootcoding\Auto\Locate\windows.ui'
+#
+# Created by: PyQt5 UI code generator 5.11.2
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_Form(object):
+    def setupUi(self, Form):
+        Form.setObjectName("Form")
+        Form.resize(435, 546)
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap("C:/Users/16057/Desktop/2333/favicon.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        Form.setWindowIcon(icon)
+        self.groupBox = QtWidgets.QGroupBox(Form)
+        self.groupBox.setGeometry(QtCore.QRect(0, 10, 431, 141))
+        self.groupBox.setObjectName("groupBox")
+        self.lineEdit = QtWidgets.QLineEdit(self.groupBox)
+        self.lineEdit.setGeometry(QtCore.QRect(10, 50, 311, 31))
+        self.lineEdit.setMaxLength(10)
+        self.lineEdit.setObjectName("lineEdit")
+        self.pushButton = QtWidgets.QPushButton(self.groupBox)
+        self.pushButton.setGeometry(QtCore.QRect(330, 50, 93, 28))
+        self.pushButton.setObjectName("pushButton")
+        self.label = QtWidgets.QLabel(self.groupBox)
+        self.label.setGeometry(QtCore.QRect(10, 20, 291, 21))
+        font = QtGui.QFont()
+        font.setFamily("Consolas")
+        font.setPointSize(11)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label.setFont(font)
+        self.label.setObjectName("label")
+        self.textEdit = QtWidgets.QTextEdit(self.groupBox)
+        self.textEdit.setEnabled(True)
+        self.textEdit.setGeometry(QtCore.QRect(10, 90, 411, 41))
+        font = QtGui.QFont()
+        font.setFamily("Arial")
+        font.setPointSize(9)
+        font.setBold(True)
+        font.setItalic(False)
+        font.setWeight(75)
+        self.textEdit.setFont(font)
+        self.textEdit.setObjectName("textEdit")
+        self.groupBox_2 = QtWidgets.QGroupBox(Form)
+        self.groupBox_2.setGeometry(QtCore.QRect(0, 160, 431, 391))
+        self.groupBox_2.setObjectName("groupBox_2")
+        self.lineEdit_2 = QtWidgets.QLineEdit(self.groupBox_2)
+        self.lineEdit_2.setGeometry(QtCore.QRect(10, 20, 311, 31))
+        self.lineEdit_2.setObjectName("lineEdit_2")
+        self.pushButton_2 = QtWidgets.QPushButton(self.groupBox_2)
+        self.pushButton_2.setGeometry(QtCore.QRect(330, 20, 91, 31))
+        self.pushButton_2.setObjectName("pushButton_2")
+        self.textEdit_2 = QtWidgets.QTextEdit(self.groupBox_2)
+        self.textEdit_2.setGeometry(QtCore.QRect(10, 90, 411, 291))
+        font = QtGui.QFont()
+        font.setFamily("Arial")
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        self.textEdit_2.setFont(font)
+        self.textEdit_2.setObjectName("textEdit_2")
+        self.label_4 = QtWidgets.QLabel(self.groupBox_2)
+        self.label_4.setGeometry(QtCore.QRect(10, 60, 291, 21))
+        font = QtGui.QFont()
+        font.setFamily("Consolas")
+        font.setPointSize(11)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label_4.setFont(font)
+        self.label_4.setObjectName("label_4")
+
+        self.retranslateUi(Form)
+        QtCore.QMetaObject.connectSlotsByName(Form)
+
+    def retranslateUi(self, Form):
+        _translate = QtCore.QCoreApplication.translate
+        Form.setWindowTitle(_translate("Form", "Ip定位查询    by:凡者"))
+        self.groupBox.setTitle(_translate("Form", "获取用于定位链接"))
+        self.pushButton.setText(_translate("Form", "开始"))
+        self.label.setText(_translate("Form", "请输入唯一的查询秘钥："))
+        self.textEdit.setPlaceholderText(_translate("Form", "此为用于定位的网址,请将它发给要定位的目标"))
+        self.groupBox_2.setTitle(_translate("Form", "查询定位信息"))
+        self.lineEdit_2.setPlaceholderText(_translate("Form", "在这里输入要查询的秘钥"))
+        self.pushButton_2.setText(_translate("Form", "查询"))
+        self.label_4.setText(_translate("Form", "定位结果："))
+
