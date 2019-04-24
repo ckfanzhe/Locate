@@ -45,7 +45,7 @@ sip==4.19.8
 six==1.11.0
 tqdm==4.24.0
 Twisted==18.7.0
-urllib3==1.23
-w3lib==1.24.2
+urllib3==1.24.2
+w3lib==1.19.0
 wincertstore==0.2
 zope.interface==4.5.0
